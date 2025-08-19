@@ -7,7 +7,9 @@ public class SomatoriosIguais {
 
         int a = 0;
         int b =0;
+        int c = 0;
         int soma;
+        int multiplicador;
 
 
         System.out.println("Digite um numero: ");
@@ -17,11 +19,15 @@ public class SomatoriosIguais {
         b = scanner.nextInt();
 
         soma = a + b;
+        multiplicador = a * b;
+        c = multiplicador;
 
         if (a == b){
             System.out.println(soma);
-        }else {
-            System.out.println("O resultado foi: " + (a + b) );
+        }else if(a != b){
+            System.out.println(multiplicador);
+        } else{
+            System.out.println(" O valor de c é : " + c);
         }
         scanner.close();
 
