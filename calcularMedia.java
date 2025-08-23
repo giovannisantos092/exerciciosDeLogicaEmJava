@@ -15,9 +15,17 @@ public class calcularMedia {
         System.out.println("Digite a terceira nota: ");
         int nota3 = sc.nextInt();
 
-        int media = (nota1 + nota2 + nota3) / 3;
+        System.out.println("Digite a quarta nota: ");
+        int nota4 = sc.nextInt();
+
+        int media = (nota1 + nota2 + nota3 + nota4) / 3;
         sc.close();
 
+        if(media <= 7){
+            System.out.println("Voce esta reprovado");
+        }else{
+            System.out.println("PARABENS!! voce está aprovado");
+        }
         System.out.println("A media das tres nota é: " + media);
     }
 
