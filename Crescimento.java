@@ -19,5 +19,6 @@ public class Crescimento {
         System.out.println("Sara sera maior que Francisco em " + anos + " anos");
         System.out.println("Altura final de sara: " + alturaSara + "cm");
         System.out.println("Altura final de Francisco: " + alturaFrancisco + "cm");
+        System.out.println("Sara ficara maior que Francisco em " + anos + " anos ");
     }
 }
